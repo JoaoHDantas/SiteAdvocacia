@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    background: rgb(56,56,56);
+    background: linear-gradient(137deg, rgba(56,56,56,1) 0%, rgba(21,48,68,1) 100%);
+}
+
+header ul, li{
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.BNT{
+    font-weight: 700;
+    text-transform: uppercase;
+    background: rgb(192,139,3);
+    background: linear-gradient(135deg, rgba(192,139,3,1) 0%, rgba(255,214,38,1) 100%);
+    padding: 8px 15px 8px 15px;
+    border-radius: 24px;
+
+}
+
+header{
+    margin-top: 35px;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-text{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    width: 282px;
+}
+.destaque{
+    color: rgb(82, 255, 223);
+    display: flex;
+    gap: 10px;
+}
+.container-text h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.styletext{
+
+    text-align: left;
+    line-height: 17px;
+    font-size: 15px;
+}
+.imagenPrincipal{
+    margin-top: 100px;
+    margin-bottom: -5px;
+}
+.imagenPrincipal img{
+    height:  800px;
+}
